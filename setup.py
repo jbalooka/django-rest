@@ -8,4 +8,5 @@ setup(name='tcdataimporter',
       author_email='jozsa.bela.tamas@gmail.com',
       license='Apache 2.0',
       packages=['tcdataimporter'],
+      install_requires=['Django==2.0', 'djangorestframework', 'markdown', 'django-filter'],
       zip_safe=False)
