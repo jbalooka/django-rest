@@ -128,3 +128,8 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ]
 }
+
+
+
+# Project Specific Settings
+DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S.%f'
